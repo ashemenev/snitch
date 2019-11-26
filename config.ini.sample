@@ -1,0 +1,23 @@
+# Rename me to config.ini
+# Make sure this file readable only by you: `chmod 0600 config.ini`
+
+[notify-run]
+# ID part of URL https://notify.run/<channel ID> (optional)
+channel = 
+# What length of time to check
+mins-ago = 60
+
+[jira-options]
+watch = false
+server = https://jira.atlassian.com
+login = 
+access-token = 
+
+[gitlab-options]
+watch = false
+server = https://gitlab.com
+login = 
+access-token = 
+# Comma separated list of projects id can be taken by gitlab-python cli: 
+# `gitlab project list --search <project_name>` (https://python-gitlab.readthedocs.io/en/stable/cli.html)
+projects = 
